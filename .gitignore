@@ -1,10 +1,8 @@
 # Custom
 my_settings.py
 
-
-
-# Created by https://www.toptal.com/developers/gitignore/api/linux,vim,python,django
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux,vim,python,django
+# Created by https://www.toptal.com/developers/gitignore/api/linux,python,django,git,vim
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,python,django,git,vim
 
 ### Django ###
 *.log
@@ -154,6 +152,21 @@ dmypy.json
 # profiling data
 .prof
 
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
 ### Linux ###
 *~
 
@@ -233,7 +246,7 @@ dmypy.json
 ### Vim ###
 # Swap
 [._]*.s[a-v][a-z]
-!*.svg  # comment out if you don't need vector files
+!*.sg  # comment out if you don't need vector files
 [._]*.sw[a-p]
 [._]s[a-rt-v][a-z]
 [._]ss[a-gi-z]
@@ -250,4 +263,4 @@ tags
 # Persistent undo
 [._]*.un~
 
-# End of https://www.toptal.com/developers/gitignore/api/liux,vim,python,django
+# End of https://www.toptal.com/developers/gitignore/api/linux,python,django,git,vim
